@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "22-05-13 Toy Project 시작"
+date:   2022-05-13 11:15:54 +0900
+categories: jekyll update
+---
+
+ 0.토이프로젝트에 시작하기 앞서 회의
+ 
+1.TDD(테스트 주도 개발) 기반의 리팩토링을 거치며 작동하는 깔끔한 코드를 완성
+
+2.Git을 통한 이슈 관리와 branch를 나누어 유연한 협업을 경험
+
+3.새로운 개발 환경과 시도를 통한 실력 향상
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/

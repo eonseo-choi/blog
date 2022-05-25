@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "22-05-20 git pull의 중요성"
+date:   2022-05-22 11:15:54 +0900
+categories: jekyll update
+---
+ ## 1.토이프로젝트 발표
+
+- 토이 프로젝트 목표 
+- BREP(breeding reptile,가칭) 소개
+- 이슈관리, 해칭관리, 개체관리에 대한 발표와 아이디어 수정
+- 예정 사항
+	- 웹 브라우저 형태에서 구글 캘린더를 참고하여 UI 변경 예정
+	- UI 검토, DB 설계 등
+
+ ##2.git lab 
+
+2-1.프로젝트 생성
+- ToyProject/petcalendar
+
+2-2.각 팀원의 git lab에 fork
+
+2-3.머지 리퀘스트 테스트
+- 코드 수정 전 git pull로 변경점 확인 필요함
+- 최신화 코드가 아닌 상태로 수정 후 머지 시 머지 리퀘스트에서 에러 발생
+- 변경점 추적하여 git fetch로 수정, fetch는 머지를 해주지 않기 때문에 확인 후 머지 해야함(git pull remote master)
+- 수정을 완료했으면 작업 후 git push origin master
+- 오류 당시 로그 첨부
+
+{% highlight ruby %}
+- 머지 리퀘스트 실패 
+
+git remote add remote http://10.1.203.13:9090/toyproject/petcalendar.git
+git pull remote
+git diff
+git fetch remote
+git remote show remote
+git pull remote master
+git push origin master
+{% endhighlight %}
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
