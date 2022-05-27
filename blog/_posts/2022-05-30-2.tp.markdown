@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "22-05-20 git pull의 중요성"
+date:   2022-05-25 16:00:00 +0900
+categories: jekyll update
+---
+ ## 1.토이프로젝트 보완
+
+- 개체 무게에 대한 이력을 팝업창 또는 다른 페이지에서 그래프 형식으로 변화를 보여주도록 변경
+- DB 기본 설계 -> ORM기반 DB 작성, 고도화 필요, USER 테이블 만들어야함
+
+ ##2.TDD(Red Green refactoring, Zest)  
+
+- 간단한 예제를 통해 red green refactoring에 대해 알아봄
+
+ ##3.git hub io(blog)
+
+- https://eonseo-choi.github.io/blog/
+
+{% highlight ruby %}
+DB 기본 설계 내용
+
+unit {
+	id: number,
+	birthday: number,
+	name: string,
+	profile: string,
+	description: string,
+	gender: string,
+	morph: string,
+	issues: issue[]
+	hatching: unit[]
+}
+
+issue {
+	id: number
+	weight?: number,
+	data: string,
+}
+
+hatching {
+	id: number
+	round: number; default = 0,
+	temperature: number;
+	parents: string[]
+	spawn_date: number,
+	description: string
+	unit: unit
+}
+
+{% endhighlight %}
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
