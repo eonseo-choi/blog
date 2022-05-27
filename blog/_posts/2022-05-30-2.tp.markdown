@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "22-05-20 git pull의 중요성"
+title:  "22-05-25 토이 프로젝트 회의"
 date:   2022-05-25 16:00:00 +0900
 categories: jekyll update
 ---
